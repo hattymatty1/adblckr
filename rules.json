@@ -1,0 +1,39 @@
+[
+    {
+        "id":1,
+        "priority": 1,
+        "action": { "type": "block"},
+        "condition": {"urlFilter": "*://*doubleclick.net/*"}
+    },
+    {
+        "id": 2,
+        "priority": 1,
+        "action": {"type": "block"},
+        "condition": {"urlFilter": [
+            "*://*googleadservices.com/*",
+            "*://*media.net/*",
+            "*://*propellerads.com/*",
+            "*://*revcontent.com//*",
+            "*://*monumetric.com/**",
+            "*://*adversal.com/*",
+            "*://*raptive.com/*",
+            "*://*mediavine.com/*",
+            "*://*playwire.com/ramp/*",
+            "*://*infolinks.com/join-us/*",
+            "*://*bidvertiser.com/*",
+            "*://*shemedia.com/partner-network/*",
+            "*://*taboola.com/*",
+            "*://*yllix.com/en/*",
+            "*://*intango.com/*",
+            "*://*adcash.com/*",
+            "*://*buysellads.com/*",
+            "*://*skimlinks.com/*",
+            "*://*affiliate-program.amazon.com/home/ads/*",
+            "*://*sovrn.com/commerce/?utm_source=viglink/*",
+            "*://*popcash.net/*",
+            "*://*setupad.com//*",
+            "*://*adrecover.com/*",
+            "*://*popads.net/*"
+            ]}
+    }
+]
